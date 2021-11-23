@@ -8,13 +8,28 @@
 
 .first-section {
   width: 100%;
-  height: 87vh;
-  background: url("https://media.istockphoto.com/vectors/electric-circuit-iot-ai-5g-with-cpu-processor-on-blue-background-vector-id1176544557?k=20&m=1176544557&s=170667a&w=0&h=pwrzv7nlRIuG3GMfw4XaU3jcll00ORRiYb0A3yRKnqE=");
+  height: 88vh;
+  background: url("https://www.logicdesign.co.uk/wp-content/uploads/dlanor-s-703975-unsplash-1500x900.jpg")
+    center/cover no-repeat;
   display: flex;
   flex-direction: column;
   color: white;
   justify-content: center;
   align-items: center;
+}
+.first-section::after {
+  content: "";
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  height: 89.55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .first-section h1 {
@@ -22,48 +37,18 @@
   font-weight: bold;
   width: 75%;
   text-align: center;
+  z-index: 2;
+  text-shadow: 5px 5px rgb(65, 65, 65);
 }
 
 .first-section p {
   font-size: 40px;
   width: 75%;
   text-align: center;
+  z-index: 2;
+  font-weight: 100;
 }
 
-.button-atag {
-  position: relative;
-  height: 3rem;
-  width: 40%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
 
-.button-atag a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.3rem;
-}
 
-.circle-span {
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
-  display: flex;
-  border: 2px white solid;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  transition: all 0.5s ease-in-out;
-  left: 0;
-}
-.button-atag:hover .circle-span {
-  width: 92%;
-}
 
-/* .circle-span:hover {
-  width: 92%;
-} */
