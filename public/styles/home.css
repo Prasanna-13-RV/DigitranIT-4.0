@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.first-section {
+  width: 100%;
+  height: 87vh;
+  background: url("https://media.istockphoto.com/vectors/electric-circuit-iot-ai-5g-with-cpu-processor-on-blue-background-vector-id1176544557?k=20&m=1176544557&s=170667a&w=0&h=pwrzv7nlRIuG3GMfw4XaU3jcll00ORRiYb0A3yRKnqE=");
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section h1 {
+  font-size: 80px;
+  font-weight: bold;
+  width: 75%;
+  text-align: center;
+}
+
+.first-section p {
+  font-size: 40px;
+  width: 75%;
+  text-align: center;
+}
+
+.button-atag {
+  position: relative;
+  height: 3rem;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.button-atag a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.circle-span {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: flex;
+  border: 2px white solid;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+  left: 0;
+}
+.button-atag:hover .circle-span {
+  width: 92%;
+}
+
+/* .circle-span:hover {
+  width: 92%;
+} */
