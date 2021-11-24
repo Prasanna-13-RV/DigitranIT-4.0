@@ -1,72 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./public/styles/nav.css" />
-		<link rel="stylesheet" href="./public/styles/button.css" />
-		<link rel="stylesheet" href="./public/styles/index.css" />
-		<title>Digitran IT</title>
-	</head>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/styles/nav.css">
-    <link rel="stylesheet" href="./public/styles/button.css">
-    <link rel="stylesheet" href="./public/styles/index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/styles/nav.css" />
+    <link rel="stylesheet" href="./public/styles/button.css" />
+    <link rel="stylesheet" href="./public/styles/index.css" />
     <title>Digitran IT</title>
 </head>
 
-		<div
-			class="container"
-			data-0="transform: translateX(0%);"
-			data-1000="transform:translateX(-300%);"
-		>
-			<section class="first-section">
-				<h1>Comprehensive development services</h1>
-				<p>Every second is of infinite value</p>
-				<div class="button-atag">
-					<span class="circle-span"></span>
-					<a class="atag-button-atag" href="/"
-						>Have a look at how we create value to our clients</a
-					>
-				</div>
-			</section>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="./index.html"><img src="./public/images/logos/logo.jpg" alt="" /></a>
+            </div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="./views/home.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li class="services">
+                        <a>Services</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="/">Development </a></li>
+                            <li><a href="/">Robotics</a></li>
+                            <li><a href="/">Modelling</a></li>
+                            <li><a href="/">Cloud</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="/">Contact</a></li>
+                </div>
+            </ul>
+            <ul class="ul-social-icons">
+                <li>
+                    <a class="button-social-media" href="https://www.facebook.com/profile.php?id=100072822087652"
+                        target="_blank"><img draggable="false"
+                            src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png" /></a>
+                </li>
+                <li>
+                    <a class="button-social-media"
+                        href="https://www.linkedin.com/in/digitranit-software-solutions-private-limited-a11783221"
+                        target="_blank"><img draggable="false"
+                            src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" /></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-			<section class="first-section second-section">
-				<h1>Value in every way</h1>
-				<p>Our people are generating good, long-term value.</p>
-				<div class="button-atag">
-					<span class="circle-span"></span>
-					<a class="atag-button-atag" href="/"
-						>Have a look at how we create value to our clients</a
-					>
-				</div>
-			</section>
+    <div class="container" data-0="transform: translateX(0%);" data-1000="transform:translateX(-300%);">
+        <section class="first-section">
+            <h1>Comprehensive development services</h1>
+            <p>Every second is of infinite value</p>
+            <div class="button-atag">
+                <span class="circle-span"></span>
+                <a class="atag-button-atag" href="/">Have a look at how we create value to our clients</a>
+            </div>
+        </section>
 
-			<section class="first-section third-section">
-				<h1>We are your ally, not just your developer</h1>
-				<p>Always be on the lookout for new opportunities.</p>
-				<div class="button-atag">
-					<span class="circle-span"></span>
-					<a class="atag-button-atag" href="/"
-						>Have a look at how we create value to our clients</a
-					>
-				</div>
-			</section>
+        <section class="first-section second-section">
+            <h1>Value in every way</h1>
+            <p>Our people are generating good, long-term value.</p>
+            <div class="button-atag">
+                <span class="circle-span"></span>
+                <a class="atag-button-atag" href="/">Have a look at how we create value to our clients</a>
+            </div>
+        </section>
 
-			<section class="first-section forth-section">
-				<h1>Career that is worthwhile</h1>
-				<p>A Globally Recognized Partner.</p>
-				<div class="button-atag">
-					<span class="circle-span"></span>
-					<a class="atag-button-atag" href="/">Let's get started</a>
-				</div>
-			</section>
-		</div>
+        <section class="first-section third-section">
+            <h1>We are your ally, not just your developer</h1>
+            <p>Always be on the lookout for new opportunities.</p>
+            <div class="button-atag">
+                <span class="circle-span"></span>
+                <a class="atag-button-atag" href="/">Have a look at how we create value to our clients</a>
+            </div>
+        </section>
+
+        <section class="first-section forth-section">
+            <h1>Career that is worthwhile</h1>
+            <p>A Globally Recognized Partner.</p>
+            <div class="button-atag">
+                <span class="circle-span"></span>
+                <a class="atag-button-atag" href="/">Let's get started</a>
+            </div>
+        </section>
 
         <section class="first-section second-section">
             <h1>Value in every way</h1>
@@ -96,11 +122,10 @@
                 <a class="atag-button-atag" href="/">Let's get started</a>
             </div> -->
             <div class="button-get-started">
-                <a href="/" class="atag-get-started" >Let's get started</a>
+                <a href="/" class="atag-get-started">Let's get started</a>
             </div>
         </section>
     </div>
-
 
 
 
