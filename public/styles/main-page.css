@@ -4,103 +4,24 @@
   box-sizing: border-box;
 }
 
-.main-section-home {
-  width: 100%;
-  height: 88vh;
-  position: relative;
-  display: flex;
+.cursor
+{
+  display: none;
+  width: 5rem;
+  height: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.first-div-video {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.first-div-video video {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.first-div-video::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* z-index: -1; */
-}
-
-.content-main-div {
-  position: absolute;
-  z-index: 4;
   color: white;
-  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(53, 132, 223, 0.774);
+  position: absolute;
+  z-index: 10000;
+}
+
+.cursor.cursor-active
+{
   display: flex;
-  flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-main-div h1 {
-  font-size: 50px;
-  font-weight: bold;
-  width: 75%;
-  z-index: 2;
-  text-shadow: 5px 5px rgb(65, 65, 65);
-}
-
-
-/* card-animation */
-
-.card-animation
-{
-  width: 100%;
-  height: 100vh;
-}
-
-.main-card-div
-{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0% 5%;
-}
-.card-div
-{
-  width: 25%;
-  height: 50%;
-  background: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-div:nth-child(1)
-{
-  margin-top: 0%;
-}
-.card-div:nth-child(1)
-{
-  margin-top: 0%;
-}
-.card-div:nth-child(1)
-{
-  margin-top: 0%;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .main-section-home {
@@ -142,8 +63,8 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-main-div h1 {
@@ -154,16 +75,13 @@
   text-shadow: 5px 5px rgb(65, 65, 65);
 }
 
-
 /* card-animation */
 
-.card-animation
-{
+.card-animation {
   width: 100%;
 }
 
-.main-card-div
-{
+.main-card-div {
   width: 100%;
   height: 100%;
   display: flex;
@@ -172,11 +90,10 @@
   align-items: center;
   padding: 0% 10%;
 }
-.card-div
-{
+.card-div {
   width: 25%;
   height: fit-content;
-  background: rgb(81, 151, 216);
+  /* background: rgb(81, 151, 216); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,39 +101,32 @@
   align-items: center;
 }
 
-.card-div:nth-child(1)
-{
+.card-div:nth-child(2) {
   margin-top: 0%;
 }
-.card-div:nth-child(2)
-{
+.card-div:nth-child(3) {
   margin-top: 10%;
 }
-.card-div:nth-child(3)
-{
+.card-div:nth-child(4) {
   margin-top: 20%;
 }
-.card-div:nth-child(4)
-{
+.card-div:nth-child(5) {
   margin-top: 30%;
 }
-.card-div-image 
-{
+.card-div-image {
   overflow: hidden;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.card-div-image img
-{
-  /* background: url("https://www.accenture.com/_acnmedia/Thought-Leadership-Assets/Images/Optimized/Accenture-Building-mergers-400x400") center/cover no-repeat; */
+.card-div-image img {
   height: 20rem;
   overflow: hidden;
   width: 100%;
+  /* cursor: var(".cursor"); */
+  cursor: none;
 }
 
-
-.card-div-content
-{
+.card-div-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,7 +135,6 @@
   padding: 10%;
 }
 
-.card-div-image:hover
-{
+.card-div-image:hover {
   transform: scale(1.1);
 }
