@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar 
+{
+  position: fixed;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+.container section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.first-section {
+  width: 100%;
+  height: 88vh;
+  position: relative;
+  background: url("https://www.logicdesign.co.uk/wp-content/uploads/dlanor-s-703975-unsplash-1500x900.jpg")
+    center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.first-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.first-section h1 {
+  font-size: 80px;
+  font-weight: bold;
+  width: 75%;
+  text-align: center;
+  z-index: 2;
+  text-shadow: 5px 5px rgb(65, 65, 65);
+}
+
+.first-section p {
+  font-size: 40px;
+  width: 75%;
+  text-align: center;
+  z-index: 2;
+  font-weight: 100;
+}
+
+.second-section {
+  background: url("https://insights.dice.com/wp-content/uploads/2018/03/Hipster-Developer-Dice.jpg")
+    center/cover no-repeat;
+}
+
+.third-section {
+  background: url("https://hackernoon.com/hn-images/1*dhwHUlGtrUKitcxbW65FPQ.jpeg")
+    center/cover no-repeat;
+}
+
+.forth-section {
+  background: url("https://images.ctfassets.net/4ai1kvq7ogob/6HimXIk2BGAQLCtvls2zy1/25f9d8e25c2950214bda1b2b6a6da176/developer-banner.gif")
+    center/cover no-repeat;
+}
+
+.div-transform {
+  transform: none;
+}
+
+
