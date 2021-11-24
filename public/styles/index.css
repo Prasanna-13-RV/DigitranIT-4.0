@@ -6,8 +6,7 @@
   scroll-behavior: smooth;
 }
 
-.navbar 
-{
+.navbar {
   position: fixed;
 }
 
@@ -89,4 +88,35 @@
   transform: none;
 }
 
+.button-get-started
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
 
+.atag-get-started
+{
+  width: 15%;
+  height: 3em;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  color: black;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+  transition: all 0.1s ease-in-out;
+  border-radius: 5px;
+}
+
+.atag-get-started:hover
+{
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
