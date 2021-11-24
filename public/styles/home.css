@@ -6,24 +6,25 @@
   scroll-behavior: smooth;
 }
 
-.container
+.navbar 
 {
-    position: fixed;
-    width: 100%;
-    display: flex;
+  position: fixed;
 }
 
-.container section
-{
-    min-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.container {
+  position: fixed;
+  width: 100%;
+  display: flex;
 }
 
-
+.container section {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .first-section {
   width: 100%;
@@ -74,21 +75,16 @@
     center/cover no-repeat;
 }
 
-
 .third-section {
   background: url("https://hackernoon.com/hn-images/1*dhwHUlGtrUKitcxbW65FPQ.jpeg")
     center/cover no-repeat;
 }
-
 
 .forth-section {
   background: url("https://images.ctfassets.net/4ai1kvq7ogob/6HimXIk2BGAQLCtvls2zy1/25f9d8e25c2950214bda1b2b6a6da176/developer-banner.gif")
     center/cover no-repeat;
 }
 
-
-
-.div-transform
-{
-    transform: none;
+.div-transform {
+  transform: none;
 }
