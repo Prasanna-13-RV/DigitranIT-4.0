@@ -4,8 +4,7 @@ const t1 = gsap.timeline({
 		start: 'top',
 		end: '100%',
 		scrub: 'true',
-		pin: true,
-		markers: true
+		pin: true
 	}
 });
 t1.fromTo(
