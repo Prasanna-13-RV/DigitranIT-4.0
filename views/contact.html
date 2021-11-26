@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link rel="stylesheet" href="../public/styles/nav.css">
+    <link rel="stylesheet" href="../public/styles/footer.css">
+    <link rel="stylesheet" href="../public/styles/contact.css">
+    <title>Contact | DigitranIT</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="../index.html"><img src="../public/images/logos/logo.jpg" alt="" /></a>
+            </div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                    <li><a href="./main-page.html">Home</a></li>
+                    <li><a class="about" href="/">About</a></li>
+                    <li class="services">
+                        <a>Services</a>
+                        <!-- DROPDOWN MENU -->
+                        <ul class="dropdown">
+                            <li><a href="/">Development </a></li>
+                            <li><a href="/">Robotics</a></li>
+                            <li><a href="/">Modelling</a></li>
+                            <li><a href="/">Cloud</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </div>
+            </ul>
+            <ul class="ul-social-icons">
+                <li>
+                    <a class="button-social-media" href="https://www.facebook.com/profile.php?id=100072822087652"
+                        target="_blank"><img draggable="false"
+                            src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png" /></a>
+                </li>
+                <li>
+                    <a class="button-social-media"
+                        href="https://www.linkedin.com/in/digitranit-software-solutions-private-limited-a11783221"
+                        target="_blank"><img draggable="false"
+                            src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="contact-section">
+        <div class="main-contact-div">
+            <div class="left-side-contact-div">
+                <div class="left-side-main-div">
+                    <h1>Get it Done</h1>
+                    <p>Let us know how we can assist you, and we'll set up a time to talk.</p>
+                    <a href="" class="right-side-button"
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/prasanna0200'});return false;">Schedule
+                        time with me</a>
+                </div>
+            </div>
+            <div class="right-side-contact-div">
+                <form>
+                    <div class="form-div-inputs">
+                        <label for="fullName">Enter your name : </label>
+                        <input type="text" name="fullName" id="fullName" autofocus>
+                    </div>
+                    <div class="form-div-inputs">
+                        <label for="email">Enter your email : </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-div-inputs">
+                        <label for="subject">Enter your subject : </label>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+                    <div class="form-div-inputs form-div-text-area">
+                        <label for="message">Enter your message : </label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-nav">
+                <h1>Header</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-networks">
+                <h1>Contact us through</h1>
+                <ul class="footer-social-ul">
+                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a></li>
+                    <li><a href=""><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a></li>
+                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</body>
+
+</html>

@@ -17,6 +17,8 @@ cardDivImage.forEach(element => {
 
 
 
+
+
 document.addEventListener('mousemove', (e) => {
     x = e.pageX;
     y = e.pageY;
