@@ -7,13 +7,6 @@ const t1 = gsap.timeline({
 		pin: true
 	}
 });
-t1.fromTo(
-	'.d',
-	{ width: '20rem', rotate: '0deg' },
-	{ width: '35rem', rotate: '180deg' }
-);
-t1.fromTo(
-	'.d',
-	{ width: '35rem', rotate: '180deg' },
-	{ width: '20rem', rotate: '360deg' }
-);
+
+t1.to('.d-effect', { clipPath: 'circle(100% at 50% 40%)', duration: 1 });
+t1.to('.d-effect .d', { rotate: '180deg', opacity: 0, scale: 0 }, '-=1');
