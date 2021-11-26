@@ -1,7 +1,11 @@
 .contact-section {
   width: 100%;
-  height: 88vh;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-contact-div {
@@ -11,116 +15,119 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: url("https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover no-repeat;
+  background-color: #4C53BC;
 }
 
-.left-side-contact-div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: baseline;
-    padding-top: 10%;
-    padding-left: 5%;
-    width: 50%;
-    height: 100%;
-    font-size: 1.3rem;
+.left-side-contact-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-top: 10%;
+  padding-left: 5%;
+  width: 50%;
+  height: 100%;
+  font-size: 1.3rem;
 }
 
-.right-side-contact-div
-{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
+.right-side-contact-div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
 }
 
-.right-side-contact-div form
-{
-    width: 70%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding : 5% 0%;
-    align-items: center;
-    border-radius: 10px;
-    background: rgb(0, 0, 0);
-    color: white;
+.right-side-contact-div form {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5% 0%;
+  align-items: center;
+  border-radius: 10px;
+  background: white;
+  /* border: 5px solid #d408db; */
+  /* background: rgb(181, 27, 167);
+  background: linear-gradient(
+    90deg,
+    rgba(181, 27, 167, 1) 12%,
+    rgba(215, 21, 210, 1) 50%,
+    rgba(171, 38, 125, 1) 93%
+  ); */
+  color: rgb(0, 0, 0);
 }
 
-.form-div-inputs
-{
-    display: flex;
-    flex-direction: column;
+.form-div-inputs {
+  display: flex;
+  flex-direction: column;
 }
 
-.form-div-inputs input
-{
-    height: 2rem;
-    border-radius: 5px;
-    width: 20rem;
-    border: none;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+.form-div-inputs input {
+  height: 2rem;
+  border-radius: 5px;
+  width: 20rem;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0% 2%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-.form-div-inputs label
-{
-    font-size: 1.3rem;
-    margin-bottom: 2%;
+.form-div-inputs label {
+  font-size: 1.3rem;
+  margin-bottom: 2%;
 }
 
-.form-div-inputs textarea
-{
-    height: 6rem;
-    border-radius: 10px;
-    width: 20rem;
-    border: none;
-    padding: 0% 2%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+.form-div-inputs textarea {
+  height: 6rem;
+  border-radius: 10px;
+  width: 20rem;
+  border: none;
+  font-size: 1.3rem;
+  padding: 2%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-.right-side-contact-div button
-{
-    width: 12rem;
-    height: 2.5rem;
-    font-size: 1.3rem;
-    background-color: rgb(22, 123, 218);
-    color: white;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    cursor: pointer;
+.right-side-contact-div button {
+  width: 12rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  background-color: rgb(22, 123, 218);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.left-side-main-div
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.3rem;
-    background: rgb(0, 0, 0);
-    padding: 5%;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
+.left-side-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  background: white;
+  border: 2px;
+  padding: 5%;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
 }
 
-.left-side-main-div a
-{
-    color: white;
-    text-decoration: none;
-    width: 50%;
-    background: rgb(22, 123, 218);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 3% 0%;
-    border-radius: 10px;
+.left-side-main-div a {
+  color: white;
+  text-decoration: none;
+  width: 50%;
+  background: rgb(22, 123, 218);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 3% 0%;
+  border-radius: 10px;
 }
