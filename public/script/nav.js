@@ -15,3 +15,16 @@ if (window.innerWidth >= 764) {
 } else {
 	bottomNav.style.height = window.innerHeight + 'px';
 }
+
+// When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function () {
+// 	scrollFunction();
+// };
+
+// function scrollFunction() {
+// 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+// 		bottomNav.style.color = '#fff';
+// 	} else {
+// 		bottomNav.style.color = '#000';
+// 	}
+// }
