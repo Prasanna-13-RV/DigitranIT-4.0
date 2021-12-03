@@ -29,29 +29,23 @@
                 <div class="menu">
                     <li><a href="./main-page.html">Home</a></li>
                     <li><a class="about" href="./about.html">About</a></li>
-                    <li class="services">
-                        <a href="./services.html">Services</a>
-                        <!-- DROPDOWN MENU -->
-                        <ul class="dropdown">
-                            <li><a href="/">Development </a></li>
-                            <li><a href="/">Robotics</a></li>
-                            <li><a href="/">Modelling</a></li>
-                            <li><a href="/">Cloud</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/">Careers</a></li>
+                    <li class="services"><a href="./service.html">Services</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </div>
             </ul>
             <ul class="ul-social-icons">
                 <li>
                     <a class="button-social-media" href="https://www.facebook.com/profile.php?id=100072822087652"
-                        target="_blank"><div class="social-icons-atag social-icons-atag-facebook"></div></a>
+                        target="_blank">
+                        <div class="social-icons-atag social-icons-atag-facebook"></div>
+                    </a>
                 </li>
                 <li>
                     <a class="button-social-media"
                         href="https://www.linkedin.com/in/digitranit-software-solutions-private-limited-a11783221"
-                        target="_blank"><div class="social-icons-atag social-icons-atag-linkedin"></div></a>
+                        target="_blank">
+                        <div class="social-icons-atag social-icons-atag-linkedin"></div>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -240,19 +234,18 @@
             <div class="footer-nav">
                 <h1>Header</h1>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-social-networks">
                 <h1>Contact us through</h1>
                 <ul class="footer-social-ul">
-                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a></li>
-                    <li><a href=""><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a></li>
-                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a></li>
+                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" /></a></li>
+                    <li><a href=""><img src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a></li>
+                    <li><a href=""><img src="https://img.icons8.com/fluency/48/000000/linkedin.png" /></a></li>
                 </ul>
             </div>
         </div>
@@ -261,52 +254,9 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            loop: true,
-            keyboard: {
-                enabled: true,
-            },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 40,
-                },
-                1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 50,
-                },
-            },
-        });
-    </script>
     <script src="../public/script/cursor.js"></script>
     <script src="../public/script/nav.js"></script>
+    <script src="../public/script/mainPage.js"></script>
 
 
 </body>
