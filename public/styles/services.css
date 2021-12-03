@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.first-section-services {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.first-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.first-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 92%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(1.1);
+  /* background: #000; */
+  border-radius: 0% 0% 80% 80%/ 0% 0% 35% 35%;
+  background: url("https://images.unsplash.com/photo-1518146721-32a72ca3a32c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    center/cover no-repeat fixed;
+}
+.first-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 94%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  /* background: #000; */
+  transform: scaleX(1.1);
+  border-radius: 0% 0% 80% 65%/ 0% 0% 35% 30%;
+  background: rgb(9, 125, 219);
+}
+
+.first-main-div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.first-main-div::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 94%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background: #000; */
+  transform: scaleX(1.1);
+  border-radius: 0% 0% 80% 65%/ 0% 0% 35% 30%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.span-top-section {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  /* background: #000; */
+  transform: scaleX(1.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+  align-items: center;
+}
+.span-top-section span {
+  /* position: absolute; */
+  width: 50%;
+  height: 10%;
+  background: #fff;
+  display: flex;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section h1 {
+  font-size: 2.3rem;
+  width: 30%;
+  z-index: 2;
+  text-align: center;
+}
+.first-section h3 {
+  font-size: 2rem;
+  width: 30%;
+  z-index: 3;
+  text-align: center;
+}
+
+.services-section {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-services1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.services-parent-div {
+  width: 30%;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: white;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 10px;
+  transition: all 1s ease;
+  z-index: -1;
+}
+
+.services-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: black;
+  box-shadow: 0px 0px 10px #000000;
+  border-radius: 10px;
+  padding: 2%;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.services-div h1 {
+  width: 85%;
+  height: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-div-content {
+  width: 0%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  transition: all 1s ease-in-out;
+  z-index: -1;
+  display: none;
+}
+
+.services-div-content p {
+  font-size: 1.1rem;
+  transition: all 1s ease-in-out;
+}
+
+.services-div:hover {
+  transform: translateY(-20px);
+}
+
+.services-div-image {
+  width: 20rem;
+}
+
+.show-div.services-div1,
+.show-div.services-div2,
+.show-div.services-div3,
+.show-div.services-div4,
+.show-div.services-div5,
+.show-div.services-div6 {
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.show-content {
+  opacity: 1;
+  display: flex;
+  width: 40%;
+  height: 30%;
+  z-index: 1;
+}
+
+.show-parent-div {
+  width: 45%;
+  height: 25rem;
+}
+
+.readmoreatag1 {
+  /* background: #000; */
+  width: 35%;
+  height: 10%;
+  margin: 1%;
+}
+.readmoreatag11 {
+  margin: 5%;
+  position: relative;
+  /* top: 15%; */
+}
+.readmore1 {
+  width: 2.5rem;
+}
