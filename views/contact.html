@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="../public/styles/footer.css">
     <link rel="stylesheet" href="../public/styles/contact.css">
     <title>Contact | DigitranIT</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_ShHGwRjiFyvUIVMufDId9");
+        })();
+    </script>
+    <script src="../public/script/contact.js"></script>
 </head>
 
 <body>
@@ -77,13 +84,13 @@
                 <div class="right-div-contact-form-div">
                     <form action="">
                         <h1>Contact Us</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aspernatur!</p>
+                        <p>Feel free to contact us anytime <br>We will get back to you, as soon as we can</p>
                         <div class="right-side-input-div">
-                            <input type="text" placeholder="Enter your Name">
+                            <input type="text" id="fullName" placeholder="Enter your Name">
                             <input type="email" placeholder="Enter your Email">
                             <textarea name="textarea" id="textarea" placeholder="Enter your message"></textarea>
                         </div>
-                        <button class="glow-on-hover">Submit</button>
+                        <button class="glow-on-hover" onclick='sendMail()'>Submit</button>
                     </form>
                 </div>
             </div>
