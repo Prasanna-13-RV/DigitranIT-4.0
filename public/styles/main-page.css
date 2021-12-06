@@ -140,3 +140,28 @@
 }
 
 
+.swiper-pagination
+{
+  display: none;
+}
+.swiper-main-div
+{
+  z-index: 1;
+}
+
+.active-swiper-bg
+{
+  position: absolute;
+  width: 20rem;
+  height: 25rem;
+  background: rgba(0, 0, 0, 0.123);
+  z-index: -1;
+}
+
+.swiper
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
