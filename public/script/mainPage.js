@@ -40,3 +40,16 @@ var swiper = new Swiper(".mySwiper", {
         },
     },
 });
+
+
+const webDevelopment = document.querySelector(".web-development");
+const robotics = document.querySelector(".robotics");
+const modeling = document.querySelector(".modeling");
+const cloudMigration = document.querySelector(".cloud-migration");
+const nicheSkills = document.querySelector(".niche-skills");
+const digitalTransformation = document.querySelector(".digital-transformation");
+
+
+// webDevelopment.addEventListener("click", () => {
+//     window.location.href = "../";
+// });

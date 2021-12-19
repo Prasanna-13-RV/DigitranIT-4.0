@@ -152,7 +152,7 @@
 .active-swiper-bg
 {
   position: absolute;
-  width: 20rem;
+  width: 25rem;
   height: 25rem;
   background: rgba(0, 0, 0, 0.123);
   z-index: -1;
